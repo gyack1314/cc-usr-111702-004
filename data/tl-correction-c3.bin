@@ -1,0 +1,12 @@
+{
+  "correction": "C-3",
+  "revision": "v1",
+  "effective": "2026-11-20",
+  "target": {
+    "notice": "N-4",
+    "version": "v2"
+  },
+  "set": {
+    "effective": "2026-11-19"
+  }
+}

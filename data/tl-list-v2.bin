@@ -1,0 +1,17 @@
+{
+  "attachments": "L-4",
+  "revision": "v2",
+  "notice": "N-4",
+  "entries": [
+    {
+      "id": "A-4",
+      "revision": "v2",
+      "kind": "ranges"
+    },
+    {
+      "id": "D-4",
+      "revision": "v1",
+      "kind": "distribution"
+    }
+  ]
+}

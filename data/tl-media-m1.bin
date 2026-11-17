@@ -1,0 +1,12 @@
+{
+  "media": "M-1",
+  "publisher": "某财经媒体",
+  "published": "2026-11-21",
+  "product": "一捻金",
+  "group_quantities": [
+    {
+      "batches_claimed": 3,
+      "units_claimed": 12000
+    }
+  ]
+}

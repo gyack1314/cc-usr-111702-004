@@ -1,0 +1,16 @@
+{
+  "annex": "REG-118",
+  "revision": "v1",
+  "ranges": [
+    {
+      "batch": "B-04",
+      "region": "华东",
+      "status": "confirmed"
+    },
+    {
+      "batch": "B-05",
+      "region": "华东",
+      "status": "cleared"
+    }
+  ]
+}

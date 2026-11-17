@@ -34,6 +34,7 @@ class Replay:
         self.position+=1
         receipt={'method':method,'url':url,'status':row['response']['status'],
                  'body_sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw),
-                 'credential_scope':credential_scope,'step':self.position}
+                 'credential_scope':credential_scope,'step':self.position,
+                 'observed_at':row.get('observed_at')}
         self.history.append(receipt)
         return raw,receipt

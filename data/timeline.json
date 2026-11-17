@@ -1,0 +1,219 @@
+{
+  "allowed_origins": [
+    "https://firm.example.test",
+    "https://regulator.example.test",
+    "https://media.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/notices/N-4",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-notice-v1.bin",
+        "status": 200,
+        "bytes": 146,
+        "sha256": "a1b433da1b49c36827fc2a7600c3f5cf24451657aa50502704d7f009e2f839a2"
+      },
+      "observed_at": "2026-11-17T09:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/notices/N-4/attachments",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-list-v1.bin",
+        "status": 200,
+        "bytes": 164,
+        "sha256": "ca448c181e934160f7d56e547ee009734267ee65d4a9acda6700f22bf43e1cb4"
+      },
+      "observed_at": "2026-11-17T09:05:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/annexes/A-4/v1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-annex-a4-v1.bin",
+        "status": 200,
+        "bytes": 160,
+        "sha256": "a9e822ae75fdaa6aa7ddaf4821a5dad126679601178c436ca49bfd9571312fd5"
+      },
+      "observed_at": "2026-11-17T09:10:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/registrations/R-9",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-registration-r9.bin",
+        "status": 200,
+        "bytes": 168,
+        "sha256": "dd1647528f1dc9089bfa4e456e1760f0e752951ef95318e87270c9dca01eedee"
+      },
+      "observed_at": "2026-11-17T15:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/annexes/A-4/v2",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-annex-a4-v2.bin",
+        "status": 200,
+        "bytes": 149,
+        "sha256": "071612c2d8255a0428253f4aee92fd83925c080b48b5e7b7c988b3267e42f87d"
+      },
+      "observed_at": "2026-11-18T10:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/notices/N-4/attachments",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-list-v2.bin",
+        "status": 200,
+        "bytes": 249,
+        "sha256": "a91c93f5cc47e2c2843863e129c4c8e1e5d8b99a1800f199660370de72a2f7b4"
+      },
+      "observed_at": "2026-11-18T11:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/notices/N-4",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-notice-v2.bin",
+        "status": 200,
+        "bytes": 146,
+        "sha256": "0224a03707155059d071c63b4c88f0503b785114e59a034a6b11b6a1bc5fb4cb"
+      },
+      "observed_at": "2026-11-18T12:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/distributions/D-4",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-distribution-d4.bin",
+        "status": 200,
+        "bytes": 324,
+        "sha256": "8201dcc82e687431c6d4382ca662cff3ab054a161260fdcfcf3523b95671dd9c"
+      },
+      "observed_at": "2026-11-19T09:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/corrections/C-1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-correction-c1.bin",
+        "status": 200,
+        "bytes": 242,
+        "sha256": "86cd328b5f09a60590d781729aa8c4db2280825f25d23335b921c55cdf0f2512"
+      },
+      "observed_at": "2026-11-20T09:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/corrections/C-2",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-correction-c2.bin",
+        "status": 200,
+        "bytes": 240,
+        "sha256": "0596540b70786dcd0d66c06a9fd0ad504f708804aba13effc080dbc90227c5c5"
+      },
+      "observed_at": "2026-11-20T10:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/corrections/C-3",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-correction-c3.bin",
+        "status": 200,
+        "bytes": 181,
+        "sha256": "ff573d6b957b117fa841ca79e0ae90f1fc8ab5fc391ba944039525fbbdce4d35"
+      },
+      "observed_at": "2026-11-20T11:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://regulator.example.test/supervision/2026-118",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-regulator-118.bin",
+        "status": 200,
+        "bytes": 241,
+        "sha256": "09e149b8b7432382c531a7cce9715ffa78cac33bfdebca0288905f2c3e8a00fc"
+      },
+      "observed_at": "2026-11-21T09:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://media.example.test/reports/m-1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-media-m1.bin",
+        "status": 200,
+        "bytes": 208,
+        "sha256": "76d9a798635a73aca31ef795ce1423f81d4a7bfd2334909b509920959b525704"
+      },
+      "observed_at": "2026-11-21T12:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/notices/N-4",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-notice-v1.bin",
+        "status": 200,
+        "bytes": 146,
+        "sha256": "a1b433da1b49c36827fc2a7600c3f5cf24451657aa50502704d7f009e2f839a2"
+      },
+      "observed_at": "2026-11-22T09:00:00Z"
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/annexes/A-4/v1",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "tl-annex-a4-v1.bin",
+        "status": 200,
+        "bytes": 160,
+        "sha256": "a9e822ae75fdaa6aa7ddaf4821a5dad126679601178c436ca49bfd9571312fd5"
+      },
+      "observed_at": "2026-11-22T09:05:00Z"
+    }
+  ]
+}

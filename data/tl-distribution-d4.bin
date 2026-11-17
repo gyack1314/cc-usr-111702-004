@@ -1,0 +1,18 @@
+{
+  "distribution": "D-4",
+  "revision": "v1",
+  "entries": [
+    {
+      "batch": "B-04",
+      "region": "华东",
+      "channel": "连锁药房",
+      "status": "confirmed"
+    },
+    {
+      "batch": "B-04",
+      "region": "华北",
+      "channel": "批发调拨",
+      "status": "pending_confirmation"
+    }
+  ]
+}

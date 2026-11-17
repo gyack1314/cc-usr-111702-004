@@ -1,0 +1,16 @@
+{
+  "correction": "C-1",
+  "revision": "v1",
+  "effective": "2026-11-20",
+  "target": {
+    "annex": "A-4",
+    "version": "v2"
+  },
+  "ranges": [
+    {
+      "batch": "B-05",
+      "region": "华东",
+      "status": "confirmed"
+    }
+  ]
+}
