@@ -1,0 +1,11 @@
+{
+  "annex": "A-4",
+  "revision": "v1",
+  "ranges": [
+    {
+      "batch": "B-04",
+      "region": "华东",
+      "status": "pending_confirmation"
+    }
+  ]
+}

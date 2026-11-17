@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://firm.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/notices/N-4",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 114,
+        "sha256": "88d66f88d81bdace1cc3376e68e0b563988d4ad52504b15cbdf3edc71f5e4ea9"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://firm.example.test/notices/N-4/batches",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-2.bin",
+        "status": 200,
+        "bytes": 159,
+        "sha256": "8cb7e2215b2141aad428bcb7a5a2868cca3aeda9a6ba2b380f9699aed42fb4f9"
+      }
+    }
+  ]
+}
